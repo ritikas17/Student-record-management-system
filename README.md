@@ -7,6 +7,12 @@ The code employs a class named `Student` to encapsulate the essential attributes
 
 **Software Requirements:** Python interpreter must be installed on the system.
 
+In this project two modules are imported - struct and os
+
+Struct module is used to ensure the specific datatypes for the respective data entries.These data entries can be comprised of either student academic report,personal information or any other deleted information.
+
+Os module is used to add,update and delete students information in their respective table path where they have been stored in the database.
+
 Student Class: The core functionality is implemented in the `Student` class, which serves as a blueprint for creating student objects with specific attributes such as roll number, name, and subject marks.
 
 Binary Data Handling: The `struct` library is employed for working with binary data. This facilitates the serialization and deserialization of `Student` objects, ensuring efficient storage and retrieval when reading and writing to a file.
