@@ -18,3 +18,72 @@ Student Class: The core functionality is implemented in the `Student` class, whi
 Binary Data Handling: The `struct` library is employed for working with binary data. This facilitates the serialization and deserialization of `Student` objects, ensuring efficient storage and retrieval when reading and writing to a file.
 
 File Operations: The system utilizes file operations to manage student records. It writes and reads binary data to and from a file named "student.dat."
+
+# Steps to install and run the project
+1) To install the required libraries mentioned in requirement.txt file on your system if not installed already
+2) To create a folder in the system and save the cse project.py
+3) To open any python interpretor like IDLE,VS Code or PyCharm
+4) To open the terminal in the directory where the code file/folder has been saved and run the following command,'python3 cse_project.py'
+
+# Instruction for testing
+To ensure that the Student Record Management System functions correctly, follow the steps below to test all its features systematically:
+
+1. Launch the Program
+• Run the project using the command:
+python3 cse_project.py
+• Ensure the main menu is displayed with available options (e.g., Add Student, Display Student, Search, Update, Delete, Exit).
+2. Test Student Record Creation
+• Choose the Entry/Edit option.
+• Choose create student record.
+• Enter valid inputs for roll number, name, and subject marks.
+
+Verify:
+• The system accepts the data without errors.
+4. Test Viewing All Student Records
+• Choose the Display Students option.
+
+Verify :
+• All existing records are displayed in a readable format.
+• No incorrect or corrupted data appears.
+5. Test Searching for a Student
+• Select the Search Student option.
+• Enter a valid roll number.
+Verify:
+• The system retrieves and displays the correct student record.
+• Searching with an invalid roll number returns an appropriate message (e.g., Record not found).
+6. Test Updating a Student Record
+• Choose the Modify Student option.
+• Enter a roll number of an existing student.
+• Modify one or more fields such as name or marks.
+
+Verify:
+• The updated data is correctly saved.
+• Re-display or search for the student to confirm the update.
+7. Test Deleting a Student Record
+• Select the Delete Student option.
+• Enter the roll number of the student you want to delete.
+
+Verify:
+• The student record is removed from the system.
+• The file reflects the updated list.
+• Searching for the same roll number shows that the record no longer exists.
+8. Test Data Persistence
+• Exit the program and relaunch it.
+• Display or search students again.
+
+Verify:
+• All previously added records remain intact.
+• There is no data loss after closing and reopening the program.
+9. Test Error Handling
+• Check for proper system behavior when:
+• Entering invalid input (non-numeric marks or roll number).
+• Leaving required fields empty.
+• Trying to update or delete a non-existing record.
+• The system should handle such cases gracefully without crashing.
+10. Test Menu Navigation
+• Navigate through all menu options.
+
+Verify:
+• The user interface responds correctly.
+• The loop continues until the Exit option is chosen.
+• No unnecessary program termination or errors occur.
