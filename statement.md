@@ -24,12 +24,12 @@ Key high-level features include:
 User Management: Secure access for administrators, teachers, and students with role-based permissions.
 Student Information Management: Centralised storage of student profiles, academic details, and performance data.
 
-Report Generation: Automated creation of progress reports, grade sheets, and performance summaries.
+• Report Generation: Automated creation of progress reports, grade sheets, and performance summaries.
 
-Data Entry & Updates: Easy input and modification of marks, attendance, and subject-wise performance by the teachers.
+• Data Entry & Updates: Easy input and modification of marks, attendance, and subject-wise performance by the teachers.
 
-Search & Filtering: Quick retrieval of student information using search criteria like name, roll number, class, or semester.
+• Search & Filtering: Quick retrieval of student information using search criteria like name, roll number, class, or semester.
 
-Data Security: Controlled access, authentication, and safe handling of sensitive student data.
+• Data Security: Controlled access, authentication, and safe handling of sensitive student data.
 
 Additionally, the system’s modular architecture enables the development of other management solutions, such as attendance systems, hotel management systems, or any other related management system.
