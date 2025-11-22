@@ -21,7 +21,7 @@ Teacher can perform CRUD operation on any student. But student can perform CRUD 
 The Student Report Management System provides a streamlined and centralized platform for managing student academic records. It enables administrators, teachers, and students to efficiently create, update, and access report data. The system ensures accuracy, reduces manual effort, and enhances transparency in academic record-keeping. 
 Key high-level features include:
 
-User Management: Secure access for administrators, teachers, and students with role-based permissions.
+• User Management: Secure access for administrators, teachers, and students with role-based permissions.
 Student Information Management: Centralised storage of student profiles, academic details, and performance data.
 
 • Report Generation: Automated creation of progress reports, grade sheets, and performance summaries.
