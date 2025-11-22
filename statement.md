@@ -13,5 +13,7 @@ The project has a very vast scope in future. The project can be implemented on i
 
 •	Individual Attendance system with photo using Student login
 
+# Target Users
+
 Teacher can perform CRUD operation on any student. But student can perform CRUD operation. Students doesn’t have the rights to saw the other functionalities which is required to hide. Hence this system is to provide an alternate and convenient way for any school or college to maintain the required data for students through an autonomous software application approach
 
